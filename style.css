@@ -6,7 +6,7 @@
     --secondaryText:rgb(78, 75, 75);
     --themeDotBorder:#24292e;
     --previewBg:rgb(251, 249, 243, 0.8);
-	--previewShadow:#f0ead6;
+	--previewShadow:#fafafa;
 	--buttonColor:black;
 }
 
@@ -284,6 +284,17 @@ h6{font-size: 16px;}
 	display: grid;
 	align-content: center;
 	text-align: center;
+}
+
+.git-links{
+	display: flex;
+	justify-content: space-evenly;
+	padding: 60px;
+}
+
+.git-links a{
+	color:var(--mainText);
+	font-size: 23px;
 }
 
 .post-wrapper{
