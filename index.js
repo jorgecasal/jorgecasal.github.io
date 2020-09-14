@@ -30,10 +30,10 @@ function setTheme(mode){
         document.getElementById('linkedinLight').style.display = "none";
         document.getElementById('linkedinDark').style.display = "block";
     }
-    if(mode === 'purple'){
-        document.getElementById('theme-style').href = 'purple.css';
-        document.getElementById('linkedinLight').style.display = "none";
-        document.getElementById('linkedinDark').style.display = "block";
+    if(mode === 'pink'){
+        document.getElementById('theme-style').href = 'pink.css';
+        document.getElementById('linkedinDark').style.display = "none";
+        document.getElementById('linkedinLight').style.display = "block";
     }
 
     localStorage.setItem('theme', mode)
