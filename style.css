@@ -8,6 +8,8 @@
     --previewBg:rgb(251, 249, 243, 0.8);
 	--previewShadow:#fafafa;
 	--buttonColor:black;
+	--jumpColor:#303436;
+
 }
 
 html, body{
@@ -40,7 +42,8 @@ h3{
 }
 
 p, li, span, label, input, textarea{
-    font-family: 'Roboto Mono', monospace;
+	font-family: 'Roboto Mono', monospace;
+	color: var(--secondaryText);
 }
 
 .s1{
@@ -56,7 +59,7 @@ p, li, span, label, input, textarea{
 
 a{
     text-decoration: none;
-    color: #17a2b8;
+    color: var(--jumpColor);
 }
 
 ul{
@@ -233,7 +236,7 @@ h6{font-size: 16px;}
 
 #preview{
 	width: 300px;
-	border:1.5px solid #17a2b8;
+	border:1.5px solid var(--jumpColor);
 	background-color: var(--previewBg);
 	padding:15px;
 	position: relative;
@@ -243,8 +246,8 @@ h6{font-size: 16px;}
 	width:7px;
 	height: 7px;
 	border-radius: 50%;
-	border:1.5px solid #17a2b8;
-	background-color: #fff;
+	border:1.5px solid var(--jumpColor);
+	background-color: var(--previewShadow);
 	position: absolute;
 }
 
@@ -282,6 +285,16 @@ h6{font-size: 16px;}
 	display: flex;
 	justify-content: space-evenly;
 	background-color: var(--previewShadow);
+}
+
+#download-btn{
+	margin-top: 10px;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom:10px; 
+	color: #fff;
+	background-color: var(--buttonColor);
+	border:none;
 }
 
 .social-links{
@@ -377,7 +390,7 @@ h6{font-size: 16px;}
 }
 
 
-#submit-btn{
+#myButton{
 	margin-top: 10px;
 	width: 100%;
 	padding-top: 10px;
