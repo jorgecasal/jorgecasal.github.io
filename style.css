@@ -3,13 +3,12 @@
     --secondaryColor:#fff;
     --borderColor:#c1c1c1;
     --mainText:black;
-    --secondaryText:rgb(78, 75, 75);
+    --secondaryText:#4E4B4B;
     --themeDotBorder:#24292e;
-    --previewBg:rgb(251, 249, 243, 0.8);
+    --previewBg:rgba(234,234,234,0.8);
 	--previewShadow:#fafafa;
 	--buttonColor:black;
 	--jumpColor:#303436;
-
 }
 
 html, body{
@@ -203,15 +202,15 @@ h6{font-size: 16px;}
 }
 
 #blue-mode{
-	background-color: #2a4156;
+	background-color: #43667B;
 }
 
 #green-mode{
-	background-color: #194848;
+	background-color: #2F6D66;
 }
 
 #purple-mode{
-	background-color: #8b6d84;
+	background-color: #d8c1d9;
 }
 
 #settings-note{
