@@ -22,25 +22,6 @@ window.addEventListener("DOMContentLoaded", function() {
         status.innerHTML = "Oops! There was a problem submitting your message.";
     }
 
-    function email() {
-        status.classList.add('email')
-        status.innerHTML = "Ooooooooooooooops!";
-    }
-
-    function validation(){
-        let form = document.getElementById('contact-form');
-        let email = document.getElementById('email').nodeValue;
-        var pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
-
-        if(email.match(pattern)){
-            form.classList.add('valid')
-            form.classList.remove('invalid')
-        }else{
-            form.classList.remove('valid')
-            form.classList.add('invalid')
-            email();        }
-    }
-
     // handle the form submission event
 
     form.addEventListener("submit", (e) => {
