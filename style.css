@@ -441,6 +441,12 @@ h6{font-size: 16px;}
 	animation: status 4s ease forwards;
 }
 
+#status.email {
+	background-color: rgb(236, 12, 12);
+	color: white;
+	animation: status 4s ease forwards;
+}
+
 #status.error {
 	background-color: rgb(250, 129, 92);
 	color: white;
