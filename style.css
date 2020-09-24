@@ -24,6 +24,172 @@ body *{
 	transition: 0.3s;
 }
 
+nav{
+	padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: var(--secondaryColor);
+    font-family: 'Roboto Mono', monospace;
+}
+
+.logo{
+	padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: var(--mainText);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.nav-links{
+	padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.nav-links li {
+	padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.nav-links a {
+	padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: var(--mainText);
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+
+.burger{
+	padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.burger div{
+	padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: var(--mainText);
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+@media screen and (max-width:1024px){
+    .nav-links{
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:768px){
+
+    body{
+		overflow-x: hidden;
+		padding: 0;
+   	    margin: 0;
+   		box-sizing: border-box;
+    }
+
+    .nav-links{
+		padding: 0;
+   		 margin: 0;
+   		 box-sizing: border-box;
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color: var(--secondaryColor);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 40%;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+    }
+
+    .nav-links li {
+		padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        opacity: 0;
+    }
+
+    .burger{
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+        display: block;
+    }
+
+}
+
+.nav-active{
+	padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.toggle .line1{
+	padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2{
+    opacity: 0;
+}
+
+.toggle .line3{
+	padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
 h1, h2, h3, h4, h5, h6, strong{
     color: var(--mainText);
     font-family: 'Russo One', sans-serif;
@@ -476,6 +642,66 @@ h6{font-size: 16px;}
 	background-color: rgb(250, 129, 92);
 	color: white;
 	animation: status 4s ease forwards;
+}
+
+.switch {
+	position: relative;
+	display: inline-block;
+	width: 34px;
+	height: 60px;
+}
+
+.switch input { 
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+.slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+.slider:before {
+	position: absolute;
+	content: "";
+	height: 26px;
+	width: 26px;
+	left: 4px;
+	bottom: 4px;
+	background-color: white;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+input:checked + .slider {
+	background-color: darkcyan;
+}
+
+input:focus + .slider {
+	box-shadow: 0 0 1px darkcyan;
+}
+
+input:checked + .slider:before {
+	-webkit-transform: translateY(-26px);
+	-ms-transform: translateY(-26px);
+	transform: translateY(-26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+	border-radius: 34px;
+}
+
+.slider.round:before {
+	border-radius: 50%;
 }
 
 @keyframes status {
