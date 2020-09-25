@@ -462,6 +462,7 @@ h6{font-size: 16px;}
 	display: flex;
 	justify-content: space-evenly;
 	background-color: var(--previewShadow);
+	border: 2px solid var(--mainText);
 }
 
 .projects-header{
@@ -509,6 +510,17 @@ h6{font-size: 16px;}
 	display: grid;
 	align-content: center;
 	text-align: center;
+}
+.LI-icon{
+	display: none;
+}
+
+.LI-badge-container-horizontal-dark{
+	border: 2px solid var(--mainText);
+}
+
+.LI-view-profile {
+	color:var(--mainText);
 }
 
 .git-links{

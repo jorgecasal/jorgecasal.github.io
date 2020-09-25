@@ -1,7 +1,8 @@
 :root{
 	--mainColor:#303436;
 	--secondaryColor:#202225;
-	--borderColor:#161914;
+	--borderColor:white;
+	/* --borderColor:#161914; */
 	--mainText:#fafafa;
 	--secondaryText:#eeeeee;
 	--themeDotBorder:#fafafa;
