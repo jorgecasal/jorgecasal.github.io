@@ -57,14 +57,15 @@ nav{
     box-sizing: border-box;
     display: flex;
     justify-content: space-around;
-    width: 30%;
+    width: 50%;
 }
 
 .nav-links li {
 	padding: 0;
-    margin: 0;
     box-sizing: border-box;
-    list-style: none;
+	list-style: none;
+	margin: 0 0 10px 0;
+	margin: 0;
 }
 
 .nav-links a {
@@ -217,6 +218,7 @@ p, li, span, label, input, textarea{
 }
 
 .s1{
+	padding-top: 10vh;
     background-color: var(--mainColor);
     border-bottom:1px solid var(--borderColor);
 	overflow: auto;
@@ -355,14 +357,6 @@ h6{font-size: 16px;}
     align-content: center;
 }
 
-#preview-shadow{
-	background-color: var(--previewShadow);
-	max-width: 300px;
-	height: 180px;
-	padding-left: 30px;
-	padding-top: 30px;
-}
-
 #preview{
 	width: 300px;
 	border:1.5px solid var(--jumpColor);
@@ -471,10 +465,10 @@ h6{font-size: 16px;}
 	border: 2px solid var(--mainText);
 }
 
-a .LI-view-profile{
+/* .LI-view-profile{
 	background-color: var(--mainText);
 	color: var(--secondaryColor);
-}
+} */
 
 .git-links{
 	display: flex;
