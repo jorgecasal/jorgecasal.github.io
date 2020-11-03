@@ -57,7 +57,7 @@ const Blog = () => {
           <Col md={6} sm={12}>
             <Fade bottom duration={1000} delay={600} distance="30px">
               <div className="about-wrapper__image">
-                <AboutImg alt="profile picture" filename={'blog.jpg'} />
+                <AboutImg alt="profile picture" filename={'Blog.jpg'} />
               </div>
             </Fade>
           </Col>
