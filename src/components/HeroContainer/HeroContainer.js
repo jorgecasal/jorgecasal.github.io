@@ -11,10 +11,10 @@ const HeroContainer = () => {
   return (
     <div className={styles.heroContainer} id="Home">
         <h1 className={styles.bigOne}>
-          Hey there <br /> Welcome
+          Hello <br /> World
         </h1>
         <p>
-          My name is JC dlc I am Front-end Developer. I love to create
+          I am Jorge Casal I am Front-end Developer. I love to create
           aesthetic UI with user centric approach. <br />
           Thanks for visiting my website have a look at my portfolio and if you
           have any querry you can contact me.

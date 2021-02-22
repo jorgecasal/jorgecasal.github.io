@@ -8,6 +8,7 @@ h1 {margin: 0;}
 .bigOne {
     font-size: var(--big-one);
     line-height: var(--big-height);
+    padding: 0 6rem 0 0;
     /* margin: 40px 0 0 0; */
 }
 
