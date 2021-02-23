@@ -4,8 +4,10 @@ import Layout from '../components/Layout';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Link } from 'gatsby';
-import pic1 from '../assets/images/pic01.jpg';
-import pic2 from '../assets/images/pic02.gif';
+import pic1 from '../assets/images/project01.gif';
+import pic2 from '../assets/images/project02.gif';
+import pic3 from '../assets/images/project03.gif';
+import pic4 from '../assets/images/project04.gif';
 import Scroll from '../components/Scroll';
 import Gallery from '../components/Gallery';
 
@@ -116,7 +118,7 @@ const IndexPage = () => (
 
     <article id="first" className="container box style1 right">
       <a href="/#" className="image fit">
-        <img src={pic1} alt="" />
+        <img src={pic3} alt="" />
       </a>
       <div className="inner">
         <header>
@@ -135,7 +137,7 @@ const IndexPage = () => (
 
     <article className="container box style1 left">
       <a href="/#" className="image fit">
-        <img src={pic2} alt="" />
+        <img src={pic4} alt="" />
       </a>
       <div className="inner">
         <header>
