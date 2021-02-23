@@ -114,7 +114,7 @@ var plugins = [{
     "plugins": [],
     "name": "Overflow",
     "short_name": "Landing",
-    "start_url": "/gatsby-starter-overflow/",
+    "start_url": "/jorgecasal.github.io",
     "background_color": "#663399",
     "theme_color": "#663399",
     "display": "standalone",

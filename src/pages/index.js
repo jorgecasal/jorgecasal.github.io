@@ -57,7 +57,7 @@ const ROW2_IMAGES = [
 const IndexPage = () => (
   <Layout>
     <Header />
-
+{/* 
     <section id="banner">
       <header>
         <h2>FULL STACK JS DEV</h2>
@@ -74,7 +74,17 @@ I also bring valuable additional experience from a career in hotel/restaurant ma
           </a>
         </Scroll>
       </footer>
-    </section>
+    </section> */}
+
+    <article className="container box style3">
+      <header>
+        <h2>Elements</h2>
+        <p>This starter has other elements.</p>
+        <br />
+        Check it out
+        <Link to="/Element"> here </Link>
+      </header>
+    </article>
 
     <article id="first" className="container box style1 right">
       <a href="/#" className="image fit">
@@ -114,7 +124,45 @@ I also bring valuable additional experience from a career in hotel/restaurant ma
       </div>
     </article>
 
-    <article className="container box style2">
+    <article id="first" className="container box style1 right">
+      <a href="/#" className="image fit">
+        <img src={pic1} alt="" />
+      </a>
+      <div className="inner">
+        <header>
+          <h2>
+            Lorem ipsum
+            <br />
+            dolor sit amet
+          </h2>
+        </header>
+        <p>
+          Tortor faucibus ullamcorper nec tempus purus sed penatibus. Lacinia
+          pellentesque eleifend vitae est elit tristique velit tempus etiam.
+        </p>
+      </div>
+    </article>
+
+    <article className="container box style1 left">
+      <a href="/#" className="image fit">
+        <img src={pic2} alt="" />
+      </a>
+      <div className="inner">
+        <header>
+          <h2>
+            Mollis posuere
+            <br />
+            lectus lacus
+          </h2>
+        </header>
+        <p>
+          Rhoncus mattis egestas sed fusce sodales rutrum et etiam ullamcorper.
+          Etiam egestas scelerisque ac duis magna lorem ipsum dolor.
+        </p>
+      </div>
+    </article>
+
+    {/* <article className="container box style2">
       <header>
         <h2>Magnis parturient</h2>
         <p>
@@ -140,6 +188,16 @@ I also bring valuable additional experience from a career in hotel/restaurant ma
           }))}
         />
       </div>
+    </article> */}
+
+    <article className="container box style3">
+      <header>
+        <h2>Elements</h2>
+        <p>This starter has other elements.</p>
+        <br />
+        Check it out
+        <Link to="/Element"> here </Link>
+      </header>
     </article>
 
     <article className="container box style3">
@@ -179,15 +237,6 @@ I also bring valuable additional experience from a career in hotel/restaurant ma
       </form>
     </article>
 
-    <article className="container box style3">
-      <header>
-        <h2>Elements</h2>
-        <p>This starter has other elements.</p>
-        <br />
-        Check it out
-        <Link to="/Element"> here </Link>
-      </header>
-    </article>
 
     <Footer />
   </Layout>

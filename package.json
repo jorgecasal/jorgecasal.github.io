@@ -43,10 +43,5 @@
     "gatsby",
     "gatsby-starter",
     "gatsby-starter-overflow"
-  ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/anubhavsrivastava/gatsby-starter-overflow/issues"
-  },
-  "homepage": "https://github.com/anubhavsrivastava/gatsby-starter-overflow#readme"
+  ]
 }
