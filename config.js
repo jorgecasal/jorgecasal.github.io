@@ -15,22 +15,22 @@ module.exports = {
     {
       icon: 'fa-github',
       name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      url: 'https://github.com/jorgecasal',
     },
     {
-      icon: 'fa-twitter',
-      name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
-    },
-    {
-      icon: 'fa-facebook',
-      name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
+      icon: 'fa-codepen',
+      name: 'Codepen',
+      url: 'https://codepen.io/jorgecasal',
     },
     {
       icon: 'fa-envelope-o',
       name: 'Email',
-      url: 'mailto:anubhav.srivastava00@gmail.com',
+      url: 'mailto:casaldelacruz@gmail.com',
+    },
+    {
+      icon: 'fa-linkedin-square',
+      name: 'linkedin',
+      url: 'https://www.linkedin.com/in/casaljorge',
     },
   ],
 };

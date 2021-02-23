@@ -2,9 +2,6 @@ import React, { useContext } from 'react';
 import emailjs from 'emailjs-com';
 
 const Form = () => {
-    // const { contact } = useContext(PortfolioContext);
-    // const { cta, btn, email } = contact;
-  
   
   
     function sendEmail(e) {

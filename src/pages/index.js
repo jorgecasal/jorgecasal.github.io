@@ -70,11 +70,11 @@ const IndexPage = () => (
           <br/> Proficient with modern web technologies and highly adaptable to any business requirements.
         </p>
       <footer>
-        <Scroll type="id" element="first">
+        {/* <Scroll type="id" element="first">
           <a href="#first" className="button style2 scrolly">
             projects
           </a>
-        </Scroll>
+        </Scroll> */}
       </footer>
     </section>
 
@@ -182,7 +182,7 @@ const IndexPage = () => (
       </div>
     </article> */}
 
-    <article className="container box style3">
+    <article className="container box style4">
       <header>
         <h2>SKILLS</h2>
         <p>full stack js dev</p>
