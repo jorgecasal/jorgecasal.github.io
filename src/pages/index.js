@@ -57,7 +57,7 @@ const ROW2_IMAGES = [
 const IndexPage = () => (
   <Layout>
     <Header />
-{/* 
+
     <section id="banner">
       <header>
         <h2>FULL STACK JS DEV</h2>
@@ -74,17 +74,8 @@ I also bring valuable additional experience from a career in hotel/restaurant ma
           </a>
         </Scroll>
       </footer>
-    </section> */}
+    </section>
 
-    <article className="container box style3">
-      <header>
-        <h2>Elements</h2>
-        <p>This starter has other elements.</p>
-        <br />
-        Check it out
-        <Link to="/Element"> here </Link>
-      </header>
-    </article>
 
     <article id="first" className="container box style1 right">
       <a href="/#" className="image fit">
