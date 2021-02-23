@@ -5,7 +5,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Link } from 'gatsby';
 import pic1 from '../assets/images/pic01.jpg';
-import pic2 from '../assets/images/pic02.jpg';
+import pic2 from '../assets/images/pic02.gif';
 import Scroll from '../components/Scroll';
 import Gallery from '../components/Gallery';
 
@@ -83,7 +83,7 @@ const IndexPage = () => (
       <div className="inner">
         <header>
           <h2>
-            Lorem ipsum
+          Reminders App
             <br />
             dolor sit amet
           </h2>
