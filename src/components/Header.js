@@ -10,8 +10,8 @@ export default function Header({ title, heading, avatar }) {
         <p>{config.heading}</p>
       </header>
       <footer>
-        <Scroll type="id" >
-          <a href="#banner" className="button style2 ">
+        <Scroll type="id" element="bannerh1">
+          <a href="#bannerh1" className="button style2 ">
             about
           </a>
         </Scroll>

@@ -23,7 +23,6 @@
 	));
 
 // Reset.
-// Based on meyerweb.com/eric/tools/css/reset (v2.0 | 20110126 | License: public domain)
 
 	html, body, div, span, applet, object,
 	iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -178,13 +177,13 @@
 
 	a {
 		@include vendor('transition', ('border-color 0.35s ease-in-out', 'color 0.35s ease-in-out'));
-		color: #35b88f;
-		text-shadow: 0 0 0.5px rgba(53, 184, 143, 0.25);
+		color: #000;
+		text-shadow: 0 0 0.5px rgb(0, 0, 0);
 		text-decoration: none;
-		border-bottom: dotted 1px rgba(53, 184, 143, 0.5);
+		border-bottom: dotted 1px rgb(0, 0, 0);
 
 		&:hover {
-			border-bottom-color: rgba(53, 184, 143, 0);
+			border-bottom-color: rgb(0, 0, 0);
 		}
 	}
 
@@ -782,7 +781,6 @@
 		padding: 14em 0 14em 0;
 		cursor: default;
 		height: 100vh;
-		border-bottom: 1px solid #fff;
 
 		header {
 			display: inline-block;
@@ -866,13 +864,13 @@
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(0, 0, 0, 0.25);
 		text-align: center;
-		// background: #000 url('../images/banner.svg') bottom center no-repeat;
 		background: #000;
 		padding: 5em 0 5em 0;
 		margin: 0;
 		background-size: 125% auto;
-		// border-bottom: 1px solid #fff;
 		padding-bottom: 0 !important;
+		border-top: 1px solid #fff;
+
 
 		.button {
 			color: #000;
@@ -890,6 +888,7 @@
 		}
 
 		p {
+			padding: 2em 9em;
 			margin: 0;
 		}
 

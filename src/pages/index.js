@@ -60,13 +60,12 @@ const IndexPage = () => (
 
     <section id="banner">
       <header>
-        <h2>FULL STACK JS DEV</h2>
+        <h2 id="bannerh1">FULL STACK JS DEV</h2>
       </header>
-      <p>
-      With a track record of taking web applications from the mind ➜ to the hands of my team members <br/> (YES! always a team player) ➜ to production. <br/>
-Proficient with modern web technologies, highly adaptable to any business requirements, and experienced with remote work.
-I also bring valuable additional experience from a career in hotel/restaurant management.
-      </p>
+        <p>
+          With a track record of taking web applications from the mind ➜ to the hands of my team members (YES! always a team player) ➜ to production.
+          <br/> Proficient with modern web technologies and highly adaptable to any business requirements.
+        </p>
       <footer>
         <Scroll type="id" element="first">
           <a href="#first" className="button style2 scrolly">
