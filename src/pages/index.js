@@ -3,7 +3,7 @@ import React from 'react';
 import Layout from '../components/Layout';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import Form from '../components/Form';
+import Form from '../components/Form.jsx';
 import { Link } from 'gatsby';
 import pic1 from '../assets/images/project01.gif';
 import pic2 from '../assets/images/project02.gif';
