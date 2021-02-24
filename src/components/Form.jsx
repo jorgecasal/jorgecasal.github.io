@@ -17,7 +17,7 @@ const Form = () => {
     }
 
   return (
-    <article className="container box style3">
+    <article className="container box style4">
         <header>
             <h2>Nisl sed ultricies</h2>
             <p>Diam dignissim lectus eu ornare volutpat orci.</p>
