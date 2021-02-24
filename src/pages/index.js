@@ -9,8 +9,6 @@ import pic1 from '../assets/images/project01.gif';
 import pic2 from '../assets/images/project02.gif';
 import pic3 from '../assets/images/project03.gif';
 import pic4 from '../assets/images/project04.gif';
-import Scroll from '../components/Scroll';
-import Gallery from '../components/Gallery';
 
 const ROW1_IMAGES = [
   {
@@ -70,11 +68,6 @@ const IndexPage = () => (
           <br/> Proficient with modern web technologies and highly adaptable to any business requirements.
         </p>
       <footer>
-        {/* <Scroll type="id" element="first">
-          <a href="#first" className="button style2 scrolly">
-            projects
-          </a>
-        </Scroll> */}
       </footer>
     </section>
 
@@ -130,7 +123,7 @@ const IndexPage = () => (
         </div>
       </header>
     </article>
-    
+
     <article id="first" className="container box style1 right">
       <a href="/#" className="image fit">
         <img src={pic1} alt="" />

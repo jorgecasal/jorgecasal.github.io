@@ -19,8 +19,8 @@ const Form = () => {
   return (
     <article className="container box style4">
         <header>
-            <h2>Nisl sed ultricies</h2>
-            <p>Diam dignissim lectus eu ornare volutpat orci.</p>
+            <h2>contact</h2>
+            <p>Would you like us to work together? Awesome!</p>
         </header>
             <form onSubmit={sendEmail}>
                 <div className="row gtr-50">
