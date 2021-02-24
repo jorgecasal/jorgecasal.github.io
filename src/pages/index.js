@@ -94,8 +94,11 @@ const IndexPage = () => (
         <p>
         A versatile MERN app that handles GET/POST/PUT/DELETE requests to MongoDB with Express, Redux state container, Authentication and Authorization. Built with React.
         </p>
-        <a href="#bannerh1" className="button style4 ">
-            about
+        <a href="https://github.com/jorgecasal" target="_blank" className="button style1 ">
+            code
+          </a>
+        <a href="https://github.com/jorgecasal" target="_blank" className="button style1 ">
+            code
           </a>
       </div>
     </article>
@@ -115,6 +118,12 @@ const IndexPage = () => (
         <p>
         A fullstack JS app that works in combination with a weather API & google places API to display data such as; wind direction, temperature preference, and icons.
         </p>
+        <a href="https://github.com/jorgecasal" target="_blank" className="button style1 ">
+            code
+          </a>
+        <a href="https://github.com/jorgecasal" target="_blank" className="button style1 ">
+            code
+          </a>
       </div>
     </article>
 
@@ -133,6 +142,12 @@ const IndexPage = () => (
         <p>
         A fullstack JS app that works in combination with a weather API & google places API to display data such as; wind direction, temperature preference, and icons.
         </p>
+        <a href="https://github.com/jorgecasal" target="_blank" className="button style1 ">
+            code
+          </a>
+        <a href="https://github.com/jorgecasal" target="_blank" className="button style1 ">
+            code
+          </a>
       </div>
     </article>
 
@@ -151,6 +166,12 @@ const IndexPage = () => (
         <p>
         This is a terrific ToDo list, and even though it's very simple, it lets you add, edit, and remove items using local storage.
         </p>
+        <a href="https://github.com/jorgecasal" target="_blank" className="button style1 ">
+            code
+          </a>
+        <a href="https://github.com/jorgecasal" target="_blank" className="button style1 ">
+            code
+          </a>
       </div>
     </article>
 
