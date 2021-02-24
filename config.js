@@ -1,10 +1,10 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Overflow', // <title>
+  siteTitle: 'JC portfolio', // <title>
   manifestName: 'Overflow',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
-  manifestBackgroundColor: '#663399',
-  manifestThemeColor: '#663399',
+  manifestBackgroundColor: '#000',
+  manifestThemeColor: '#000',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: '/jorgecasal.github.io', // This path is subpath of your hosting https://domain/portfolio

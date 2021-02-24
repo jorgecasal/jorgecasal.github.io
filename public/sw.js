@@ -27,22 +27,35 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
+<<<<<<< HEAD
     "url": "webpack-runtime-1daea5469b267ae0f0a2.js"
+=======
+    "url": "webpack-runtime-ac16f8e8d8bd9d4f400d.js"
+>>>>>>> 24507014667ab33c96b7465c4df3dee8bed21f3a
   },
   {
     "url": "framework-8e528b732ab2eaadb7b7.js"
   },
   {
+<<<<<<< HEAD
     "url": "app-5642675fc93bd66b1914.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
     "revision": "0b4310daa6a793298cd6ffb76ed742d9"
+=======
+    "url": "app-8903eb37243109650c14.js"
+  },
+  {
+    "url": "offline-plugin-app-shell-fallback/index.html",
+    "revision": "3291a94204768c8c1996c00d6c256515"
+>>>>>>> 24507014667ab33c96b7465c4df3dee8bed21f3a
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-b0556ce5127c1a3e2490.js"
   },
   {
+<<<<<<< HEAD
     "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
     "revision": "f6081b83111aea4128c98944b7fafccc"
   },
@@ -51,11 +64,13 @@ self.__precacheManifest = [
     "revision": "534f0e3451db96b097acf20e3484ced2"
   },
   {
+=======
+>>>>>>> 24507014667ab33c96b7465c4df3dee8bed21f3a
     "url": "polyfill-0eca59d2ee8c0828e3a6.js"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "f6b9b9cd615384c0ae61de987f8f8239"
+    "revision": "7eb42b4ca8844c044509c10d4d4173ea"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -142,12 +157,16 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^/jorgecasal.github.io`), ``)
+  pathname = pathname.replace(new RegExp(`^`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
+<<<<<<< HEAD
   if (!resources || !(await caches.match(`/jorgecasal.github.io/app-5642675fc93bd66b1914.js`))) {
+=======
+  if (!resources || !(await caches.match(`/app-8903eb37243109650c14.js`))) {
+>>>>>>> 24507014667ab33c96b7465c4df3dee8bed21f3a
     return await fetch(event.request)
   }
 
@@ -160,7 +179,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/jorgecasal.github.io/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
