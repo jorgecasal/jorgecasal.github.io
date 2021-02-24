@@ -641,8 +641,11 @@
 		}
 
 		&.style1 {
-			background: #fff;
+			background: #000 !important;
+			color: #fff;
 			padding: 3em;
+			border-top: 1px solid #fff;
+			border-bottom: 1px solid #fff;
 
 			.image {
 				display: block;
@@ -650,7 +653,7 @@
 				top: 0;
 				width: 50%;
 				height: 100%;
-				background: #152E33;
+				background: #000;
 				overflow: hidden;
 
 				img {
