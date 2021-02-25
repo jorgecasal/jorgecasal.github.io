@@ -1153,7 +1153,7 @@
 		/* Basic */
 
 			body {
-				background-color: #203936;
+				background-color: #000;
 				background-image: url('../images/overlay.png'), url('../images/bg-alt.jpg');
 				background-repeat: repeat, no-repeat;
 				background-size: auto, 100% auto;
@@ -1435,6 +1435,10 @@
 						letter-spacing: 6px;
 					}
 				}
+
+				p{
+					padding: 0;
+				}
 			}
 
 		/* Footer */
@@ -1466,6 +1470,25 @@
 				}
 			}
 
+			#skills{
+				display: flex;
+				justify-content: space-evenly;
+			}
+
+			ul{
+				padding-left: 0;
+			}
+			
+			li{
+			  display: flex;
+			  padding-top: 1rem;
+			}
+			
+			li h1{
+				display: none;
+			  }
+			
+
 	}
 
 //////////////////////////////////////////////////////////////
@@ -1483,3 +1506,4 @@ li{
 li h1{
 	padding-left: 2rem;
   }
+

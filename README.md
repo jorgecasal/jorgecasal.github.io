@@ -6,7 +6,7 @@ master for deploy only
 npm run deploy
 ```
 
-source for all other matters 
+gh-pages for all other matters 
 
 ```sh
 npm i
