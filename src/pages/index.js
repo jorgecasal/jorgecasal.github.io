@@ -205,13 +205,13 @@ const IndexPage = () => (
 
     <article className="container box style4">
       <header>
-        <h2>check out Blog Repo</h2>
+        <h2>Blog Repo</h2>
         <p>Hello World, I have a blog!
 
-Would you like to learn more about JavaScript?
+Wanna get into the JavaScript world?
 
-Blog Repo is a tech blog where I explain Javascript stuff</p>
-<a href="#bannerh1" className="button style2 ">
+Blog Repo is a straight forward tech blog where I explain Javascript stuff without wasting your time</p>
+<a href="https://code-repo.netlify.app/" target="_blank" className="button style2 ">
             blog
           </a>
       </header>
