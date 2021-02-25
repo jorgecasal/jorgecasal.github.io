@@ -19,11 +19,8 @@ const IndexPage = () => (
       </header>
         <p>
           With a track record of taking web applications 
-          <br/>
           from the mind ➜ to development with my team ➜ to production.
-          <br/> 
           (YES! always a team player)
-          <br/>
           Proficient with modern web technologies and highly adaptable to any business requirements.
         </p>
       <footer>
