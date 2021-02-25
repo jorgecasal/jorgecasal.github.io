@@ -10,8 +10,6 @@ Check online preview [here](https://anubhavsrivastava.github.io/gatsby-starter-o
 
 ## Screenshot
 
-![Screenshot](./src/assets/img/demo.png)
-
 ## Install
 
 Make sure that you have the Gatsby CLI program installed:
