@@ -9,6 +9,12 @@ npm run deploy
 gh-pages for all other matters 
 
 ```sh
-npm i
+git add .
+git commit -m \"something\"
+git push
+npm run deploy
+
+or 
+
 npm run develop
 ```
