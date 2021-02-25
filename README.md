@@ -7,9 +7,6 @@ For an overview of the project structure please refer to the [Gatsby documentati
 ![Screenshot](./src/assets/img/overflow.jpg)
 
 Check online preview [here](https://anubhavsrivastava.github.io/gatsby-starter-overflow/)
-
-## Screenshot
-
 ## Install
 
 Make sure that you have the Gatsby CLI program installed:
