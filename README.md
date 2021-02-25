@@ -12,3 +12,6 @@ source for all other matters
 npm i
 npm run develop
 ```
+
+
+other resources:
