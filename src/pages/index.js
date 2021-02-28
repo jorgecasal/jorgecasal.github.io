@@ -82,7 +82,7 @@ const IndexPage = () => (
 
     <article id="first" className="container box style1 right">
       <a href="https://theremindersapp.herokuapp.com/" className="image fit">
-        <img src={pic1} alt="" />
+        <img src={pic1} alt="jorge casal project" />
       </a>
       <div className="inner">
         <header>
@@ -106,7 +106,7 @@ const IndexPage = () => (
 
     <article className="container box style1 left">
       <a href="https://geolocationweatherapi.netlify.app/" className="image fit">
-        <img src={pic2} alt="" />
+        <img src={pic2} alt="jorge casal project" />
       </a>
       <div className="inner">
         <header>
@@ -130,7 +130,7 @@ const IndexPage = () => (
 
     <article id="first" className="container box style1 right">
       <a href="https://post-to-database.herokuapp.com/" className="image fit">
-        <img src={pic3} alt="" />
+        <img src={pic3} alt="jorge casal project" />
       </a>
       <div className="inner">
         <header>
@@ -153,7 +153,7 @@ const IndexPage = () => (
 
     <article className="container box style1 left">
       <a href="https://simplest-todo.netlify.app/" className="image fit">
-        <img src={pic4} alt="" />
+        <img src={pic4} alt="jorge casal project" />
       </a>
       <div className="inner">
         <header>
