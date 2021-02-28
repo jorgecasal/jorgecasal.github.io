@@ -12,9 +12,9 @@ gh-pages for all other matters
 git add .
 git commit -m \"something\"
 git push
-npm run deploy
+npm run develop
 
 or 
 
-npm run develop
+npm run deploy
 ```
