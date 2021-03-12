@@ -50,8 +50,6 @@
 
 	body {
 		line-height: 1;
-		overflow-x: hidden;
-		overflow-y: hidden;
 	}
 
 	ol, ul {
@@ -100,6 +98,12 @@
 	// Based on css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice
 		html {
 			box-sizing: border-box;
+			overflow: scroll;
+			overflow-x: hidden;
+		}
+		::-webkit-scrollbar {
+			width: 0;  /* Remove scrollbar space */
+			background: transparent; 
 		}
 
 		*, *:before, *:after {
